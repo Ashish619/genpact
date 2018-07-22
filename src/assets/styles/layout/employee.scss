@@ -1,0 +1,26 @@
+.employee-view{
+    max-width: 960px;
+    margin: 40px auto 0 auto;
+    .button-container{
+        button{
+          transform: translate(0,90%);
+          &:nth-child(2){
+                margin-left:16px; 
+            }
+        }
+        }
+        .details-view{
+            margin:60px auto 0 auto;
+            max-width: 400px;
+            float: none;
+          }
+        .image-wrapper{
+            max-width: 100%; 
+            display:block; 
+            height: auto;
+             img{
+                width: 100%;
+            }
+        }
+    }
+
